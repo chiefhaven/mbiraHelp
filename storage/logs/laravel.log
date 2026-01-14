@@ -626,3 +626,71 @@
 #2 C:\\wamp64\\www\\helpdesk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(0): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
 #3 {main}
 "} 
+[2026-01-14 22:17:56] SPRUKO.ERROR: Cannot redeclare setting() (previously declared in C:\wamp64\www\mbiraHelp\app\helpers.php:9) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare setting() (previously declared in C:\\wamp64\\www\\mbiraHelp\\app\\helpers.php:9) at C:\\wamp64\\www\\mbiraHelp\\app\\helpers.php:10)
+[stacktrace]
+#0 C:\\wamp64\\www\\mbiraHelp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(222): Symfony\\Component\\ErrorHandler\\Error\\FatalError->__construct(message: ''Cannot redecla...', code: '0', error: '['type' => 64, ...', traceOffset: '0', traceArgs: '???', trace: '???')
+#1 C:\\wamp64\\www\\mbiraHelp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(209): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->fatalErrorFromPhpError(error: '['type' => 64, ...', traceOffset: '0')
+#2 C:\\wamp64\\www\\mbiraHelp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(0): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#3 {main}
+"} 
+[2026-01-14 22:18:44] SPRUKO.ERROR: There are no commands defined in the "ide-helper" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"ide-helper\" namespace. at C:\\wamp64\\www\\mbiraHelp\\vendor\\symfony\\console\\Application.php:650)
+[stacktrace]
+#0 C:\\wamp64\\www\\mbiraHelp\\vendor\\symfony\\console\\Application.php(701): Symfony\\Component\\Console\\Application->findNamespace('ide-helper')
+#1 C:\\wamp64\\www\\mbiraHelp\\vendor\\symfony\\console\\Application.php(259): Symfony\\Component\\Console\\Application->find('ide-helper:gene...')
+#2 C:\\wamp64\\www\\mbiraHelp\\vendor\\symfony\\console\\Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\wamp64\\www\\mbiraHelp\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(94): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\wamp64\\www\\mbiraHelp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 C:\\wamp64\\www\\mbiraHelp\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2026-01-14 22:18:46] SPRUKO.ERROR: There are no commands defined in the "ide-helper" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"ide-helper\" namespace. at C:\\wamp64\\www\\mbiraHelp\\vendor\\symfony\\console\\Application.php:650)
+[stacktrace]
+#0 C:\\wamp64\\www\\mbiraHelp\\vendor\\symfony\\console\\Application.php(701): Symfony\\Component\\Console\\Application->findNamespace('ide-helper')
+#1 C:\\wamp64\\www\\mbiraHelp\\vendor\\symfony\\console\\Application.php(259): Symfony\\Component\\Console\\Application->find('ide-helper:gene...')
+#2 C:\\wamp64\\www\\mbiraHelp\\vendor\\symfony\\console\\Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\wamp64\\www\\mbiraHelp\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(94): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\wamp64\\www\\mbiraHelp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 C:\\wamp64\\www\\mbiraHelp\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2026-01-14 22:18:48] SPRUKO.ERROR: There are no commands defined in the "ide-helper" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"ide-helper\" namespace. at C:\\wamp64\\www\\mbiraHelp\\vendor\\symfony\\console\\Application.php:650)
+[stacktrace]
+#0 C:\\wamp64\\www\\mbiraHelp\\vendor\\symfony\\console\\Application.php(701): Symfony\\Component\\Console\\Application->findNamespace('ide-helper')
+#1 C:\\wamp64\\www\\mbiraHelp\\vendor\\symfony\\console\\Application.php(259): Symfony\\Component\\Console\\Application->find('ide-helper:gene...')
+#2 C:\\wamp64\\www\\mbiraHelp\\vendor\\symfony\\console\\Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\wamp64\\www\\mbiraHelp\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(94): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\wamp64\\www\\mbiraHelp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 C:\\wamp64\\www\\mbiraHelp\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2026-01-14 22:18:48] SPRUKO.ERROR: There are no commands defined in the "ide-helper" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"ide-helper\" namespace. at C:\\wamp64\\www\\mbiraHelp\\vendor\\symfony\\console\\Application.php:650)
+[stacktrace]
+#0 C:\\wamp64\\www\\mbiraHelp\\vendor\\symfony\\console\\Application.php(701): Symfony\\Component\\Console\\Application->findNamespace('ide-helper')
+#1 C:\\wamp64\\www\\mbiraHelp\\vendor\\symfony\\console\\Application.php(259): Symfony\\Component\\Console\\Application->find('ide-helper:gene...')
+#2 C:\\wamp64\\www\\mbiraHelp\\vendor\\symfony\\console\\Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\wamp64\\www\\mbiraHelp\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(94): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\wamp64\\www\\mbiraHelp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 C:\\wamp64\\www\\mbiraHelp\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2026-01-14 22:18:50] SPRUKO.ERROR: Cannot redeclare setting() (previously declared in C:\wamp64\www\mbiraHelp\app\helpers.php:9) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare setting() (previously declared in C:\\wamp64\\www\\mbiraHelp\\app\\helpers.php:9) at C:\\wamp64\\www\\mbiraHelp\\app\\helpers.php:10)
+[stacktrace]
+#0 C:\\wamp64\\www\\mbiraHelp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(222): Symfony\\Component\\ErrorHandler\\Error\\FatalError->__construct(message: ''Cannot redecla...', code: '0', error: '['type' => 64, ...', traceOffset: '0', traceArgs: '???', trace: '???')
+#1 C:\\wamp64\\www\\mbiraHelp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(209): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->fatalErrorFromPhpError(error: '['type' => 64, ...', traceOffset: '0')
+#2 C:\\wamp64\\www\\mbiraHelp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(0): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#3 {main}
+"} 
+[2026-01-14 22:19:43] SPRUKO.ERROR: Cannot redeclare setting() (previously declared in C:\wamp64\www\mbiraHelp\app\helpers.php:9) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare setting() (previously declared in C:\\wamp64\\www\\mbiraHelp\\app\\helpers.php:9) at C:\\wamp64\\www\\mbiraHelp\\app\\helpers.php:10)
+[stacktrace]
+#0 C:\\wamp64\\www\\mbiraHelp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(222): Symfony\\Component\\ErrorHandler\\Error\\FatalError->__construct(message: ''Cannot redecla...', code: '0', error: '['type' => 64, ...', traceOffset: '0', traceArgs: '???', trace: '???')
+#1 C:\\wamp64\\www\\mbiraHelp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(209): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->fatalErrorFromPhpError(error: '['type' => 64, ...', traceOffset: '0')
+#2 C:\\wamp64\\www\\mbiraHelp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(0): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#3 {main}
+"} 
+[2026-01-14 22:20:38] SPRUKO.ERROR: Cannot redeclare setting() (previously declared in C:\wamp64\www\mbiraHelp\app\helpers.php:9) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot redeclare setting() (previously declared in C:\\wamp64\\www\\mbiraHelp\\app\\helpers.php:9) at C:\\wamp64\\www\\mbiraHelp\\app\\helpers.php:10)
+[stacktrace]
+#0 C:\\wamp64\\www\\mbiraHelp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(222): Symfony\\Component\\ErrorHandler\\Error\\FatalError->__construct(message: ''Cannot redecla...', code: '0', error: '['type' => 64, ...', traceOffset: '0', traceArgs: '???', trace: '???')
+#1 C:\\wamp64\\www\\mbiraHelp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(209): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->fatalErrorFromPhpError(error: '['type' => 64, ...', traceOffset: '0')
+#2 C:\\wamp64\\www\\mbiraHelp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(0): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#3 {main}
+"} 

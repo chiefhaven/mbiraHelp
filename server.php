@@ -6,7 +6,7 @@ Project         :   UHelp-Support Ticketing System
 Laravel Version :   8.82.0
 PHP Version     :   8.1.2
 Created Date    :   19-02-2022
-Copyright       :   Spruko Technologies Private Limited
+Copyright       :  HavenPlus Technologies Private Limited
 Author          :   SPRUKO™
 Author URL      :   https://themeforest.net/user/spruko
 Support         :   support@spruko.com
