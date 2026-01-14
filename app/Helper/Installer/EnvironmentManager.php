@@ -83,7 +83,7 @@ class EnvironmentManager
         $envFileData =
         
         'APP_NAME='.$request->app_name."\n".
-        'APP_ENV='.'SPRUKO'."\n".
+        'APP_ENV='.'HAVENPLUS'."\n".
         'APP_KEY='.'base64:'.base64_encode(Str::random(32))."\n".
         'APP_DEBUG='.'false'."\n".
         'APP_LOG_LEVEL='.'log'."\n".
