@@ -400,7 +400,7 @@
 
             <?php $module = Module::all(); ?>
 
-            <?php if(in_array('Uhelpupdate', $module)): ?>
+            <?php if(in_array('mbiraHelpupdate', $module)): ?>
             <?php if (app(\Illuminate\Contracts\Auth\Access\Gate::class)->check('Canned Response Access')): ?>
 
             <li class="slide">

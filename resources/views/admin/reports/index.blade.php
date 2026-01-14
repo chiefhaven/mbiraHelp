@@ -191,7 +191,7 @@
 
 
                                                 <span
-                                                    class="rating-stars block uhelp-rating ms-auto w-auto allemployeerating"
+                                                    class="rating-stars block mbiraHelp-rating ms-auto w-auto allemployeerating"
                                                     data-rating="{{ $rating }}">
                                                 </span>
                                             </div>

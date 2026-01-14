@@ -27,7 +27,7 @@ use App\Models\Ratingtoken;
 use App\Models\Customer;
 use Carbon\Carbon;
 use App\Models\Setting;
-use Modules\Uhelpupdate\Entities\CategoryEnvato;
+use Modules\mbiraHelpupdate\Entities\CategoryEnvato;
 
 class TicketController extends Controller
 {

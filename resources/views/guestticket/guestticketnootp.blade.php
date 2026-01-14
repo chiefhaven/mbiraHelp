@@ -654,7 +654,7 @@
 
 					@php $module = Module::all(); @endphp
 
-					@if(in_array('Uhelpupdate', $module))
+					@if(in_array('mbiraHelpupdate', $module))
 
 					// Purchase Code Validation
 					$("body").on('keyup', '#envato_id', function() {

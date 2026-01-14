@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Uhelpupdate\Http\Controllers;
+namespace Modules\mbiraHelpupdate\Http\Controllers;
 
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
@@ -11,7 +11,7 @@ use App\Models\User;
 use App\Models\Footertext;
 use App\Models\Seosetting;
 use App\Models\Pages;
-use Modules\Uhelpupdate\Entities\APIData;
+use Modules\mbiraHelpupdate\Entities\APIData;
 use App\Helper\Installer\trait\ApichecktraitHelper;
 use Illuminate\Support\Facades\Http;
 use App\Models\Setting;
@@ -146,7 +146,7 @@ class EnvatoAppinfoController extends Controller
 
 
         }
-        return view('uhelpupdate::appinfo.index', compact('output'))->with($data);
+        return view('mbiraHelpupdate::appinfo.index', compact('output'))->with($data);
     }
 
     /**
@@ -155,7 +155,7 @@ class EnvatoAppinfoController extends Controller
      */
     public function create()
     {
-        return view('uhelpupdate::create');
+        return view('mbiraHelpupdate::create');
     }
 
     public function testinginfo()
@@ -223,7 +223,7 @@ class EnvatoAppinfoController extends Controller
      */
     public function show($id)
     {
-        return view('uhelpupdate::show');
+        return view('mbiraHelpupdate::show');
     }
 
     /**
@@ -233,7 +233,7 @@ class EnvatoAppinfoController extends Controller
      */
     public function edit($id)
     {
-        return view('uhelpupdate::edit');
+        return view('mbiraHelpupdate::edit');
     }
 
     /**

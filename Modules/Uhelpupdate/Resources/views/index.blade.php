@@ -1,9 +1,9 @@
-@extends('uhelpupdate::layouts.master')
+@extends('mbiraHelpupdate::layouts.master')
 
 @section('content')
     <h1>Hello World</h1>
 
     <p>
-        This view is loaded from module: {!! config('uhelpupdate.name') !!}
+        This view is loaded from module: {!! config('mbiraHelpupdate.name') !!}
     </p>
 @endsection

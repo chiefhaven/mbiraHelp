@@ -92,7 +92,7 @@
                         @yield('container')
                     </div>
                 </div>
-                <div class="copyright"> Copyright © {{ now()->format('Y') }} <a href="javascript:void(0);">Uhelp</a>. Developed by <a href="javascript:void(0);">HavenPlus Technologies Pvt.Ltd. </a> All rights reserved </div>
+                <div class="copyright"> Copyright © {{ now()->format('Y') }} <a href="javascript:void(0);">mbiraHelp</a>. Developed by <a href="javascript:void(0);">HavenPlus Technologies Pvt.Ltd. </a> All rights reserved </div>
             </div>
 
 

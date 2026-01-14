@@ -34,7 +34,7 @@
 
 											@php $module = Module::all(); @endphp
 
-											@if(in_array('Uhelpupdate', $module))
+											@if(in_array('mbiraHelpupdate', $module))
 											@if(setting('ENVATO_ON') == 'on')
 
 												<button class="btn btn-info mb-sm-0 mb-2" id="envatoapiassign">{{lang('Envato Api Assign')}}</button>

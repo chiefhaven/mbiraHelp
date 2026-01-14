@@ -40,4 +40,4 @@
 
 
                             <?php $__env->stopSection(); ?>
-<?php echo $__env->make('layouts.adminmaster', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\wamp64\www\helpdesk\Modules/Uhelpupdate\Resources/views/envatoapitoken/index.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('layouts.adminmaster', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\wamp64\www\helpdesk\Modules/mbiraHelpupdate\Resources/views/envatoapitoken/index.blade.php ENDPATH**/ ?>

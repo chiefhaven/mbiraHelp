@@ -12,8 +12,8 @@
 */
 use Spatie\Honeypot\ProtectAgainstSpam;
 
-Route::prefix('uhelpupdate')->group(function() {
-    Route::get('/', 'UhelpupdateController@index');
+Route::prefix('mbiraHelpupdate')->group(function() {
+    Route::get('/', 'mbiraHelpupdateController@index');
 });
 
 Route::middleware(ProtectAgainstSpam::class)->group(function() {

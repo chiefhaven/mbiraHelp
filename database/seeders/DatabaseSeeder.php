@@ -25,7 +25,7 @@ use Database\Seeders\Permissiongroupupdate;
 use Database\Seeders\TimezoneSeeder;
 use Database\Seeders\SettingUpdateSeeder;
 use Database\Seeders\NewUpdateSeederV3_1;
-use Modules\Uhelpupdate\Database\Seeders\UhelpupdateDatabaseSeeder;
+use Modules\mbiraHelpupdate\Database\Seeders\mbiraHelpupdateDatabaseSeeder;
 
 
 class DatabaseSeeder extends Seeder
@@ -57,7 +57,7 @@ class DatabaseSeeder extends Seeder
             FaqSeeder::class,
             SettingUpdateSeeder::class,
             TimezoneSeeder::class,
-            UhelpupdateDatabaseSeeder::class,
+            mbiraHelpupdateDatabaseSeeder::class,
             Permissiongroupupdate::class,
             LanguageSeeder::class,
             TranslationSeeder::class,

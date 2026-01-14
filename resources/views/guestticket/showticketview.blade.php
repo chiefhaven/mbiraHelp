@@ -345,14 +345,14 @@
 									<div>
 										<span>{!! $ticket->message !!}</span>
 										<div class="row galleryopen mt-4">
-                                            <div class="uhelp-attach-container flex-wrap">
+                                            <div class="mbiraHelp-attach-container flex-wrap">
 
                                                 @if($ticket->emailticketfile != null)
 													@if($ticket->emailticketfile == 'mismatch')
 														<div class="border d-table rounded attach-container-width mb-2" data-bs-toggle="tooltip" data-bs-placement="top" title="{{lang('File upload failed, Please make sure that the file size is within the allowed limits and that the file format is supported.')}}">
-															<div class="d-flex align-items-center file-attach-uhelp mt-1">
+															<div class="d-flex align-items-center file-attach-mbiraHelp mt-1">
 																<div class="me-2">
-																	<a href="#" class="uhelp-attach-acion d-flex align-items-center justify-content-center"><i class="fe feather-alert-circle text-danger fs-20"></i></a>
+																	<a href="#" class="mbiraHelp-attach-acion d-flex align-items-center justify-content-center"><i class="fe feather-alert-circle text-danger fs-20"></i></a>
 																</div>
 																<div class="d-flex align-items-center text-muted fs-12 me-3">
 																	<p class="file-attach-name text-danger mb-0">Upload Failed</p>
@@ -369,7 +369,7 @@
 																$finalextension = $arrayextension[1];
 															@endphp
 															<div class="border d-table rounded attach-container-width mb-2">
-																<div class="d-flex align-items-center file-attach-uhelp">
+																<div class="d-flex align-items-center file-attach-mbiraHelp">
 																	<div class="me-2">
 																		@if($finalextension == 'jpg' || $finalextension == 'jpeg' || $finalextension == 'JPG')
 																			<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-filetype-jpg" viewBox="0 0 16 16">
@@ -396,9 +396,9 @@
 																	<div class="d-flex align-items-center text-muted fs-12 me-3">
 																		<p class="file-attach-name text-truncate mb-0">{{ $arrayextension[0] }}</p>.{{ $arrayextension[1] }}
 																	</div>
-																	<a href="{{route('emailtoticketimageurl', array($ticket->id,$arraytypes))}}" target="_blank" class="uhelp-attach-acion p-2 rounded border lh-1 me-1 d-flex align-items-center justify-content-center"><i
+																	<a href="{{route('emailtoticketimageurl', array($ticket->id,$arraytypes))}}" target="_blank" class="mbiraHelp-attach-acion p-2 rounded border lh-1 me-1 d-flex align-items-center justify-content-center"><i
 																						class="fe fe-eye text-muted fs-12"></i></a>
-																	<a href="{{route('emailtoticketdownload', array($ticket->id,$arraytypes))}}" class="uhelp-attach-acion p-2 rounded border lh-1 d-flex align-items-center justify-content-center"><i
+																	<a href="{{route('emailtoticketdownload', array($ticket->id,$arraytypes))}}" class="mbiraHelp-attach-acion p-2 rounded border lh-1 d-flex align-items-center justify-content-center"><i
 																			class="fe fe-download text-muted fs-12"></i></a>
 																</div>
 															</div>
@@ -415,7 +415,7 @@
                                                 @endphp
 
                                                 <div class="border d-table rounded attach-container-width mb-2">
-                                                    <div class="d-flex align-items-center file-attach-uhelp">
+                                                    <div class="d-flex align-items-center file-attach-mbiraHelp">
                                                         <div class="me-2">
                                                             @if($aa == 'jpg' || $aa == 'jpeg' || $aa == 'JPG')
                                                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-filetype-jpg" viewBox="0 0 16 16">
@@ -442,9 +442,9 @@
                                                         <div class="d-flex align-items-center text-muted fs-12 me-3">
                                                             <p class="file-attach-name text-truncate mb-0">{{ $a[0] }}</p>.{{ $a[1] }}
                                                         </div>
-                                                        <a href="{{route('imageurl', array($ticketss->id,$ticketss->file_name))}}" target="_blank" class="uhelp-attach-acion p-2 rounded border lh-1 me-1 d-flex align-items-center justify-content-center"><i
+                                                        <a href="{{route('imageurl', array($ticketss->id,$ticketss->file_name))}}" target="_blank" class="mbiraHelp-attach-acion p-2 rounded border lh-1 me-1 d-flex align-items-center justify-content-center"><i
                                                                             class="fe fe-eye text-muted fs-12"></i></a>
-                                                        <a href="{{route('imagedownload', array($ticketss->id,$ticketss->file_name))}}" class="uhelp-attach-acion p-2 rounded border lh-1 d-flex align-items-center justify-content-center"><i
+                                                        <a href="{{route('imagedownload', array($ticketss->id,$ticketss->file_name))}}" class="mbiraHelp-attach-acion p-2 rounded border lh-1 d-flex align-items-center justify-content-center"><i
                                                                 class="fe fe-download text-muted fs-12"></i></a>
                                                     </div>
                                                 </div>

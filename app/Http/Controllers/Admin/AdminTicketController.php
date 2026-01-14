@@ -29,12 +29,12 @@ use DataTables;
 use App\Models\Groupsusers;
 use App\Models\Groups;
 use Str;
-use Modules\Uhelpupdate\Entities\Cannedmessages;
+use Modules\mbiraHelpupdate\Entities\Cannedmessages;
 use Carbon\Carbon;
 use App\Models\Customfield;
 use App\Models\TicketCustomfield;
 use App\Models\CCMAILS;
-use Modules\Uhelpupdate\Entities\CategoryEnvato;
+use Modules\mbiraHelpupdate\Entities\CategoryEnvato;
 use App\Models\tickethistory;
 
 class AdminTicketController extends Controller

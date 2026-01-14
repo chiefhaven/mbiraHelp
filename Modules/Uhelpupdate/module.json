@@ -1,11 +1,11 @@
 {
-    "name": "Uhelpupdate",
-    "alias": "uhelpupdate",
+    "name": "mbiraHelpupdate",
+    "alias": "mbiraHelpupdate",
     "description": "",
     "keywords": [],
     "priority": 0,
     "providers": [
-        "Modules\\Uhelpupdate\\Providers\\UhelpupdateServiceProvider"
+        "Modules\\mbiraHelpupdate\\Providers\\mbiraHelpupdateServiceProvider"
     ],
     "aliases": {},
     "files": [],

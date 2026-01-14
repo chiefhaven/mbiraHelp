@@ -15,7 +15,7 @@ class FootertextSeeder extends Seeder
     public function run()
     {
         DB::table('footertexts')->insert([
-            'copyright' => '<p class="mb-0">Copyright © 2023 <a href="https://uhelp.spruko.com/"> Uhelp </a>. Developed by <a href="https://spruko.com/">Spruko Technologies</a></p>',
+            'copyright' => '<p class="mb-0">Copyright © 2023 <a href="https://mbiraHelp.spruko.com/"> mbiraHelp </a>. Developed by <a href="https://spruko.com/">HavenPlus Technologies</a></p>',
             'created_at' => now(),
             'updated_at' => now(),
         ]);

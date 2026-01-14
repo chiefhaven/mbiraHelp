@@ -25,7 +25,7 @@ use App\Models\CategoryUser;
 use Illuminate\Support\Facades\Validator;
 use Response;
 use Str;
-use Modules\Uhelpupdate\Entities\CategoryEnvato;
+use Modules\mbiraHelpupdate\Entities\CategoryEnvato;
 use App\Models\tickethistory;
 
 class CategoriesController extends Controller

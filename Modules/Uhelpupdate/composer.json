@@ -1,5 +1,5 @@
 {
-    "name": "nwidart/uhelpupdate",
+    "name": "nwidart/mbiraHelpupdate",
     "description": "",
     "authors": [
         {
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Modules\\Uhelpupdate\\": ""
+            "Modules\\mbiraHelpupdate\\": ""
         }
     }
 }

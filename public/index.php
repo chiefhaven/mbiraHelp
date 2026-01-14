@@ -1,7 +1,7 @@
 <?php
 
 /*
-Project         :   UHelp-Support Ticketing System
+Project         :   mbiraHelp-Support Ticketing System
 @package        :   Laravel
 Laravel Version :   8.82.0
 PHP Version     :   8.1.2

@@ -15,7 +15,7 @@
             min-height: 150px;
             }
 
-            .uhelp-reply-badge {
+            .mbiraHelp-reply-badge {
             right: 14px;
             bottom: 10px;
             z-index: 1;
@@ -199,9 +199,9 @@
 
                                                                     <h3 class="mb-0 text-secondary">{{$totalactivetickets}}</h3>
                                                                     @if($totalactiverecent > 0)
-                                                                        <span class="position-absolute uhelp-reply-badge pulse-badge" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Un-Answered"><i class="fa fa-commenting me-1"></i>{{$totalactiverecent}}</span>
+                                                                        <span class="position-absolute mbiraHelp-reply-badge pulse-badge" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Un-Answered"><i class="fa fa-commenting me-1"></i>{{$totalactiverecent}}</span>
                                                                     @else
-                                                                        <span class="position-absolute uhelp-reply-badge pulse-badge disabled" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Un-Answered"><i class="fa fa-commenting me-1"></i>0</span>
+                                                                        <span class="position-absolute mbiraHelp-reply-badge pulse-badge disabled" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Un-Answered"><i class="fa fa-commenting me-1"></i>0</span>
                                                                     @endif
                                                             </div>
                                                         </div>
@@ -239,9 +239,9 @@
 																	{{lang('Self assigned Tickets')}}</p>
 																	<h5 class="mb-0">{{$selfassigncount}}</h5>
                                                                     @if($selfassignrecentreply > 0)
-                                                                        <span class="position-absolute uhelp-reply-badge pulse-badge" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Un-Answered"><i class="fa fa-commenting me-1"></i>{{$selfassignrecentreply}}</span>
+                                                                        <span class="position-absolute mbiraHelp-reply-badge pulse-badge" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Un-Answered"><i class="fa fa-commenting me-1"></i>{{$selfassignrecentreply}}</span>
                                                                     @else
-                                                                        <span class="position-absolute uhelp-reply-badge pulse-badge disabled" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Un-Answered"><i class="fa fa-commenting me-1"></i>0</span>
+                                                                        <span class="position-absolute mbiraHelp-reply-badge pulse-badge disabled" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Un-Answered"><i class="fa fa-commenting me-1"></i>0</span>
                                                                     @endif
 
 															</div>
@@ -275,9 +275,9 @@
 																	{{lang('My Assigned Tickets')}}</p>
 																	<h5 class="mb-0">{{$myassignedticketcount}}</h5>
                                                                     @if($myassignedticketrecentreply > 0)
-                                                                        <span class="position-absolute uhelp-reply-badge pulse-badge" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Un-Answered"><i class="fa fa-commenting me-1"></i>{{$myassignedticketrecentreply}}</span>
+                                                                        <span class="position-absolute mbiraHelp-reply-badge pulse-badge" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Un-Answered"><i class="fa fa-commenting me-1"></i>{{$myassignedticketrecentreply}}</span>
                                                                     @else
-                                                                        <span class="position-absolute uhelp-reply-badge pulse-badge disabled" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Un-Answered"><i class="fa fa-commenting me-1"></i>0</span>
+                                                                        <span class="position-absolute mbiraHelp-reply-badge pulse-badge disabled" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Un-Answered"><i class="fa fa-commenting me-1"></i>0</span>
                                                                     @endif
 
 															</div>

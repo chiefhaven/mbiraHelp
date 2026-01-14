@@ -1243,7 +1243,7 @@ table.table-bordered.dataTable td {
   border-bottom-right-radius: 0;
 }
 
-.uhelp-faq .accordion-button:focus {
+.mbiraHelp-faq .accordion-button:focus {
   box-shadow: none !important;
 }
 
@@ -1257,7 +1257,7 @@ table.table-bordered.dataTable td {
   border: 1px solid 1px solid #e6ebf1;
 }
 
-.uhelp-faq .accordion-button:focus {
+.mbiraHelp-faq .accordion-button:focus {
   border-color: #e9ebfa;
 }
 
@@ -1279,7 +1279,7 @@ table.table-bordered.dataTable td {
   box-shadow: none;
 }
 
-.uhelp-faq svg {
+.mbiraHelp-faq svg {
   width: 22px;
   height: 22px;
   margin-right: 8px;
@@ -1299,12 +1299,12 @@ table.table-bordered.dataTable td {
   fill: var(--primary);
 }
 
-.uhelp-faq .accordion-body {
+.mbiraHelp-faq .accordion-body {
   z-index: 999;
   background-color: #fff;
   position: relative;
 }
-.uhelp-faq .accordion-item {
+.mbiraHelp-faq .accordion-item {
   z-index: 99;
 }
 

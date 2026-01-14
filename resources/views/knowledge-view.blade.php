@@ -196,7 +196,7 @@
 																<div class="row">
 																	<div class="col-xl-12">
 																		<div class="row galleryopen">
-                                                                            <div class="uhelp-attach-container flex-wrap">
+                                                                            <div class="mbiraHelp-attach-container flex-wrap">
                                                                                 @foreach ($articles->getMedia('article') as $articles)
                                                                                 @php
                                                                                 $a = explode('.', $articles->file_name);
@@ -204,7 +204,7 @@
                                                                                 @endphp
 
                                                                                 <div class="border d-table rounded attach-container-width mb-2">
-                                                                                    <div class="d-flex align-items-center file-attach-uhelp">
+                                                                                    <div class="d-flex align-items-center file-attach-mbiraHelp">
                                                                                         <div class="me-2">
                                                                                             @if($aa == 'jpg' || $aa == 'jpeg' || $aa == 'JPG')
                                                                                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-filetype-jpg" viewBox="0 0 16 16">
@@ -231,9 +231,9 @@
                                                                                         <div class="d-flex align-items-center text-muted fs-12 me-3">
                                                                                             <p class="file-attach-name text-truncate mb-0">{{ $a[0] }}</p>.{{ $a[1] }}
                                                                                         </div>
-                                                                                        <a href="{{route('imageurl', array($articles->id,$articles->file_name))}}" target="_blank" class="uhelp-attach-acion p-2 rounded border lh-1 me-1 d-flex align-items-center justify-content-center"><i
+                                                                                        <a href="{{route('imageurl', array($articles->id,$articles->file_name))}}" target="_blank" class="mbiraHelp-attach-acion p-2 rounded border lh-1 me-1 d-flex align-items-center justify-content-center"><i
                                                                                         class="fe fe-eye text-muted fs-12"></i></a>
-                                                                                        <a href="{{route('imagedownload', array($articles->id,$articles->file_name))}}" class="uhelp-attach-acion p-2 rounded border lh-1 d-flex align-items-center justify-content-center"><i
+                                                                                        <a href="{{route('imagedownload', array($articles->id,$articles->file_name))}}" class="mbiraHelp-attach-acion p-2 rounded border lh-1 d-flex align-items-center justify-content-center"><i
                                                                                         class="fe fe-download text-muted fs-12"></i></a>
                                                                                     </div>
                                                                                 </div>
@@ -269,7 +269,7 @@
 															<div class="row">
 																<div class="col-xl-12">
 																	<div class="row galleryopen">
-                                                                        <div class="uhelp-attach-container flex-wrap">
+                                                                        <div class="mbiraHelp-attach-container flex-wrap">
                                                                             @foreach ($articles->getMedia('article') as $articles)
                                                                             @php
                                                                             $a = explode('.', $articles->file_name);
@@ -277,7 +277,7 @@
                                                                             @endphp
 
                                                                             <div class="border d-table rounded attach-container-width mb-2">
-                                                                                <div class="d-flex align-items-center file-attach-uhelp">
+                                                                                <div class="d-flex align-items-center file-attach-mbiraHelp">
                                                                                     <div class="me-2">
                                                                                         @if($aa == 'jpg' || $aa == 'jpeg' || $aa == 'JPG')
                                                                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-filetype-jpg" viewBox="0 0 16 16">
@@ -304,9 +304,9 @@
                                                                                     <div class="d-flex align-items-center text-muted fs-12 me-3">
                                                                                         <p class="file-attach-name text-truncate mb-0">{{ $a[0] }}</p>.{{ $a[1] }}
                                                                                     </div>
-                                                                                    <a href="{{route('imageurl', array($articles->id,$articles->file_name))}}" target="_blank" class="uhelp-attach-acion p-2 rounded border lh-1 me-1 d-flex align-items-center justify-content-center"><i
+                                                                                    <a href="{{route('imageurl', array($articles->id,$articles->file_name))}}" target="_blank" class="mbiraHelp-attach-acion p-2 rounded border lh-1 me-1 d-flex align-items-center justify-content-center"><i
                                                                                     class="fe fe-eye text-muted fs-12"></i></a>
-                                                                                    <a href="{{route('imagedownload', array($articles->id,$articles->file_name))}}" class="uhelp-attach-acion p-2 rounded border lh-1 d-flex align-items-center justify-content-center"><i
+                                                                                    <a href="{{route('imagedownload', array($articles->id,$articles->file_name))}}" class="mbiraHelp-attach-acion p-2 rounded border lh-1 d-flex align-items-center justify-content-center"><i
                                                                                     class="fe fe-download text-muted fs-12"></i></a>
                                                                                 </div>
                                                                             </div>

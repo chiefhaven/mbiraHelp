@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Uhelpupdate\Http\Controllers;
+namespace Modules\mbiraHelpupdate\Http\Controllers;
 
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
@@ -11,7 +11,7 @@ use App\Models\Apptitle;
 use App\Models\Footertext;
 use App\Models\Seosetting;
 use App\Models\Pages;
-use Modules\Uhelpupdate\Entities\Cannedmessages;
+use Modules\mbiraHelpupdate\Entities\Cannedmessages;
 use DataTables;
 use Auth;
 
@@ -40,7 +40,7 @@ class CannedmessagesController extends Controller
         $cannedmessages = Cannedmessages::latest()->get();
         $data['cannedmessages'] = $cannedmessages;
 
-        return view('uhelpupdate::cannedmessages.index')->with($data);
+        return view('mbiraHelpupdate::cannedmessages.index')->with($data);
     }
 
     /**
@@ -62,7 +62,7 @@ class CannedmessagesController extends Controller
         $post = Pages::all();
         $data['page'] = $post;
 
-        return view('uhelpupdate::cannedmessages.create')->with($data);
+        return view('mbiraHelpupdate::cannedmessages.create')->with($data);
     }
 
     /**
@@ -96,7 +96,7 @@ class CannedmessagesController extends Controller
     {
 
 
-        return view('uhelpupdate::show');
+        return view('mbiraHelpupdate::show');
     }
 
     /**
@@ -122,7 +122,7 @@ class CannedmessagesController extends Controller
         $cannedmessages = Cannedmessages::findOrFail($id);
         $data['cannedmessage'] = $cannedmessages;
 
-        return view('uhelpupdate::cannedmessages.edit')->with($data);
+        return view('mbiraHelpupdate::cannedmessages.edit')->with($data);
     }
 
     /**

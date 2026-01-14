@@ -29,8 +29,8 @@ use Auth;
 use GeoIP;
 use Illuminate\Http\Request;
 use Mail;
-use Modules\Uhelpupdate\Entities\APIData;
-use Modules\Uhelpupdate\Entities\CategoryEnvato;
+use Modules\mbiraHelpupdate\Entities\APIData;
+use Modules\mbiraHelpupdate\Entities\CategoryEnvato;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 use App\Models\tickethistory;
 

@@ -1,11 +1,11 @@
 <?php
 
-namespace Modules\Uhelpupdate\Database\Seeders;
+namespace Modules\mbiraHelpupdate\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;
 
-class UhelpupdateDatabaseSeeder extends Seeder
+class mbiraHelpupdateDatabaseSeeder extends Seeder
 {
     /**
      * Run the database seeds.

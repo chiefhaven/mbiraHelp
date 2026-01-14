@@ -13,7 +13,7 @@ use App\Models\User;
 use App\Models\Projects;
 use App\Models\Groupscategories;
 use App\Models\Projects_category;
-use Modules\Uhelpupdate\Entities\CategoryEnvato;
+use Modules\mbiraHelpupdate\Entities\CategoryEnvato;
 
 class Category extends Model
 {

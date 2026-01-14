@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Uhelpupdate\Entities;
+namespace Modules\mbiraHelpupdate\Entities;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -98,6 +98,6 @@ class Cannedmessages extends Model
     
     protected static function newFactory()
     {
-        return \Modules\Uhelpupdate\Database\factories\CannedmessagesFactory::new();
+        return \Modules\mbiraHelpupdate\Database\factories\CannedmessagesFactory::new();
     }
 }

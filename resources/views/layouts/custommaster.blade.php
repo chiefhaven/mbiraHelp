@@ -92,14 +92,14 @@
 
 	<body class="@if(setting('DARK_MODE') == 1) dark-mode @endif {{getIsRtl()}}">
         @if(setting('ANNOUNCEMENT_USER') == 'non_login_users' || setting('ANNOUNCEMENT_USER') == 'all_users')
-            <div class="uhelp-announcement-alertgroup">
+            <div class="mbiraHelp-announcement-alertgroup">
             @foreach ($announcement as $anct)
             @if ($anct->status == 1)
             <div class="alert" role="alert" style="background: linear-gradient(to right, {{$anct->primary_color}}, {{$anct->secondary_color}});">
             <div class="container">
             <button type="submit" class="btn-close ms-5 float-end text-white notifyclose" data-id="{{$anct->id}}">×</button>
             <div class="d-flex align-items-top">
-            <div class="uhelp-announcement me-2">
+            <div class="mbiraHelp-announcement me-2">
             <svg class="svg-info" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/></svg>
             </div>
             <div class="text-default d-flex align-items-top">
@@ -107,7 +107,7 @@
             <div>
             <span class="fs-15 font-weight-bold text-white flex-fill">{{$anct->title}}</span>
             <span class="text-white opacity-50 mx-2"><i class="ti ti-minus"></i></span>
-            <span class="mb-0 text-white uhelp-alert-content alert-notice">{!!$anct->notice!!}
+            <span class="mb-0 text-white mbiraHelp-alert-content alert-notice">{!!$anct->notice!!}
             @if($anct->buttonon == 1)
             <a class="btn btn-sm ms-2 text-white text-decoration-underline" href="{{$anct->buttonurl}}" target="_blank">{{$anct->buttonname}}</a>
             @endif
@@ -133,7 +133,7 @@
             <div class="container">
             <button type="submit" class="btn-close ms-5 float-end text-white notifyclose" data-id="{{$ancts->id}}">×</button>
             <div class="d-flex align-items-top">
-            <div class="uhelp-announcement me-2">
+            <div class="mbiraHelp-announcement me-2">
             <svg class="svg-info" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/></svg>
             </div>
             <div class="text-default d-flex align-items-top">
@@ -141,7 +141,7 @@
             <div>
             <span class="fs-15 font-weight-bold text-white flex-fill">{{$ancts->title}}</span>
             <span class="text-white opacity-50 mx-2"><i class="ti ti-minus"></i></span>
-            <span class="mb-0 text-white uhelp-alert-content alert-notice">{!!$ancts->notice!!}
+            <span class="mb-0 text-white mbiraHelp-alert-content alert-notice">{!!$ancts->notice!!}
             @if($ancts->buttonon == 1)
             <a class="btn btn-sm ms-2 text-white text-decoration-underline" href="{{$ancts->buttonurl}}" target="_blank">{{$ancts->buttonname}}</a>
             @endif

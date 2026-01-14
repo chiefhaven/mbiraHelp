@@ -525,7 +525,7 @@ unset($__errorArgs, $__bag); ?>">
 
 				<?php $module = Module::all(); ?>
 
-				<?php if(in_array('Uhelpupdate', $module)): ?>
+				<?php if(in_array('mbiraHelpupdate', $module)): ?>
 
 				// Purchase Code Validation
 				$("body").on('keyup', '#envato_id', function() {

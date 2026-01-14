@@ -9,7 +9,7 @@
 		<link href="<?php echo e(asset('assets/plugins/sweet-alert/sweetalert.css')); ?>" rel="stylesheet" />
 
         <style>
-            .uhelp-reply-badge {
+            .mbiraHelp-reply-badge {
             right: 14px;
             bottom: 10px;
             z-index: 1;
@@ -185,9 +185,9 @@
 														<p class="fs-14 font-weight-semibold mb-1"><?php echo e(lang('Active Tickets')); ?> </p>
 														<h5 class="mb-0"><?php echo e($totalactivetickets); ?></h5>
                                                         <?php if($replyrecent > 0): ?>
-                                                            <span class="position-absolute uhelp-reply-badge pulse-badge" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Un-Answered"><i class="fa fa-commenting me-1"></i><?php echo e($replyrecent); ?></span>
+                                                            <span class="position-absolute mbiraHelp-reply-badge pulse-badge" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Un-Answered"><i class="fa fa-commenting me-1"></i><?php echo e($replyrecent); ?></span>
                                                         <?php else: ?>
-                                                            <span class="position-absolute uhelp-reply-badge pulse-badge disabled" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Un-Answered"><i class="fa fa-commenting me-1"></i>0</span>
+                                                            <span class="position-absolute mbiraHelp-reply-badge pulse-badge disabled" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Un-Answered"><i class="fa fa-commenting me-1"></i>0</span>
                                                         <?php endif; ?>
 
 													</div>

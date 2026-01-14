@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Uhelpupdate\Http\Controllers;
+namespace Modules\mbiraHelpupdate\Http\Controllers;
 
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
@@ -10,7 +10,7 @@ use App\Models\Apptitle;
 use App\Models\Footertext;
 use App\Models\Seosetting;
 use App\Models\Pages;
-use Modules\Uhelpupdate\Entities\APIData;
+use Modules\mbiraHelpupdate\Entities\APIData;
 
 
 class EnvatoApiTokenController extends Controller
@@ -37,7 +37,7 @@ class EnvatoApiTokenController extends Controller
         $apidata = APIData::first();
         $data['apidata'] = $apidata;
 
-        return view('uhelpupdate::envatoapitoken.index')->with($data);
+        return view('mbiraHelpupdate::envatoapitoken.index')->with($data);
     }
 
     /**
@@ -46,7 +46,7 @@ class EnvatoApiTokenController extends Controller
      */
     public function create()
     {
-        return view('uhelpupdate::create');
+        return view('mbiraHelpupdate::create');
     }
 
     /**
@@ -66,7 +66,7 @@ class EnvatoApiTokenController extends Controller
      */
     public function show($id)
     {
-        return view('uhelpupdate::show');
+        return view('mbiraHelpupdate::show');
     }
 
     /**
@@ -76,7 +76,7 @@ class EnvatoApiTokenController extends Controller
      */
     public function edit($id)
     {
-        return view('uhelpupdate::edit');
+        return view('mbiraHelpupdate::edit');
     }
 
     /**
@@ -129,7 +129,7 @@ class EnvatoApiTokenController extends Controller
         $apidata = APIData::first();
         $data['apidata'] = $apidata;
 
-        return view('uhelpupdate::envatoapitoken.licensesearch')->with($data);
+        return view('mbiraHelpupdate::envatoapitoken.licensesearch')->with($data);
     }
 
     public function licensesearchget(Request $request)

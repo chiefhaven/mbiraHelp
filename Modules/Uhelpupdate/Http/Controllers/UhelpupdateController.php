@@ -1,12 +1,12 @@
 <?php
 
-namespace Modules\Uhelpupdate\Http\Controllers;
+namespace Modules\mbiraHelpupdate\Http\Controllers;
 
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 
-class UhelpupdateController extends Controller
+class mbiraHelpupdateController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class UhelpupdateController extends Controller
      */
     public function index()
     {
-        return view('uhelpupdate::index');
+        return view('mbiraHelpupdate::index');
     }
 
     /**
@@ -23,7 +23,7 @@ class UhelpupdateController extends Controller
      */
     public function create()
     {
-        return view('uhelpupdate::create');
+        return view('mbiraHelpupdate::create');
     }
 
     /**
@@ -43,7 +43,7 @@ class UhelpupdateController extends Controller
      */
     public function show($id)
     {
-        return view('uhelpupdate::show');
+        return view('mbiraHelpupdate::show');
     }
 
     /**
@@ -53,7 +53,7 @@ class UhelpupdateController extends Controller
      */
     public function edit($id)
     {
-        return view('uhelpupdate::edit');
+        return view('mbiraHelpupdate::edit');
     }
 
     /**

@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Uhelpupdate\Database\Seeders;
+namespace Modules\mbiraHelpupdate\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;
