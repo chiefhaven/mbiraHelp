@@ -1,21 +1,21 @@
 <?php
 
-namespace Modules\mbiraHelpupdate\Providers;
+namespace Modules\Uhelpupdate\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Database\Eloquent\Factory;
 
-class mbiraHelpupdateServiceProvider extends ServiceProvider
+class UhelpupdateServiceProvider extends ServiceProvider
 {
     /**
      * @var string $moduleName
      */
-    protected $moduleName = 'mbiraHelpupdate';
+    protected $moduleName = 'Uhelpupdate';
 
     /**
      * @var string $moduleNameLower
      */
-    protected $moduleNameLower = 'mbiraHelpupdate';
+    protected $moduleNameLower = 'Uhelpupdate';
 
     /**
      * Boot the application events.
