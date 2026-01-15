@@ -1,0 +1,1 @@
+<?php echo e(\Carbon\Carbon::now(Auth::user()->timezone)->format(setting('time_format'))); ?><?php /**PATH C:\wamp64\www\mbiraHelp\resources\views/admin/superadmindashboard/timeupdate.blade.php ENDPATH**/ ?>
